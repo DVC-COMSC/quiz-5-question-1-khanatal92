@@ -11,20 +11,22 @@ int main() {
    // Check if the input is valid
    if (rows <= 0) {
       cout << "Invalid input. Please enter a positive integer." << endl;
+      return 1;
    }
   
    // Print the pattern
-   for (int i = 1); i<= rows; ++i) {
+   for (int i = 1; i<= rows; ++i) {
       char letter = 'A';
 
-   // Print letter for each row
-   for (int j = 1); j <=i; ++j) {
+   // Print letters for each row
+   for (int j = 1; j <=i; ++j) {
       cout << letter << ' ';
       ++letter;
    }
+   
    // Move to the next line after each row
-   cout << endl:
+   cout << endl;
 }
 
-return 0;
+   return 0;
 }
