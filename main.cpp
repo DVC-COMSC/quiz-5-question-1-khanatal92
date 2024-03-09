@@ -13,5 +13,18 @@ int main() {
       cout << "Invalid input. Please enter a positive integer." << endl;
    }
   
-   // Print the pattern{}
+   // Print the pattern
+   for (int i = 1); i<= rows; ++i) {
+      char letter = 'A';
+
+   // Print letter for each row
+   for (int j = 1); j <=i; ++j) {
+      cout << letter << ' ';
+      ++letter;
+   }
+   // Move to the next line after each row
+   cout << endl:
+}
+
+return 0;
 }
